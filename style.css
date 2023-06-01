@@ -1,0 +1,63 @@
+header {
+  margin: 3em;
+  max-width: 833px;
+  margin-left: 4em;
+}
+
+header > span {
+  font-size: 5em;
+}
+
+.container {
+  margin: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  height: 450px;
+  overflow: hidden;
+}
+
+.card > h3 {
+  font-size: 50px;
+  margin: 0;
+  color: grey;
+  margin-left: 20px;
+}
+
+.card > p {
+  font-size: 25px;
+  margin-top: 10px;
+  color: rgb(73, 73, 73);
+  margin-left: 20px;
+}
+
+.card-img {
+  width: 308.5px;
+  margin-left: 20px;
+  position: relative;
+  height: 298px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.img {
+  position: absolute;
+  max-width: 308.5px;
+  top: -80px;
+}
+.title {
+  position: absolute;
+  bottom: 45px;
+  font-size: 25px;
+  left: 20px;
+}
+
+.text {
+  position: absolute;
+  bottom: 20px;
+  max-width: 200px;
+  left: 20px;
+}
